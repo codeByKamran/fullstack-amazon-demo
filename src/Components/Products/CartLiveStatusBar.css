@@ -1,0 +1,134 @@
+.livebasketbar__container {
+  background-color: var(--background-main);
+  width: 100%;
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .livebasketbar__container {
+    padding: 0 0.5rem;
+  }
+}
+
+.basketLive__statusBar {
+  border: 1px solid rgb(177, 177, 177);
+  margin: 1rem 0;
+}
+
+.basketLive__left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  border-right: 1px solid rgb(177, 177, 177);
+  padding: 1rem;
+}
+
+.basketLive__left > svg {
+  color: rgb(26, 148, 26);
+  font-size: 30px;
+}
+
+.basketLive__left > h3 {
+  margin-left: 0.25rem;
+  font-weight: 600;
+  font-size: 17px;
+  color: #2aac20;
+  letter-spacing: 0.4px;
+}
+
+.basketLive__right {
+  align-items: center;
+  padding: 0.15rem 0.75rem;
+}
+
+.basketLive__right__belowDesktop {
+  padding: 1rem 0;
+}
+
+.basket__subtotal {
+  align-items: center;
+  margin-top: 2px;
+}
+
+.basket__subtotal > h3 {
+  color: #111;
+  font-size: 17px;
+}
+
+.basket__subtotal > h3 > span {
+  font-size: 15.5px;
+  font-weight: 400;
+}
+
+.gift__check {
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gift__check > .checkbox {
+  margin-left: 3px;
+  margin-right: 0.55rem;
+}
+
+.gift__check > div {
+  align-items: center;
+}
+
+.gift__check > div > svg {
+  color: green;
+  font-size: 16px;
+  margin-right: 0.25rem;
+  margin-left: -0.15rem;
+}
+
+.gift__check > div > h5 {
+  font-weight: 400;
+  font-size: 13.5px;
+}
+
+.basket__subtotal > strong {
+  color: #b12730;
+  margin-left: 0.35rem;
+  font-size: 18px;
+}
+
+.basketLive__rightActions__belowDesktop {
+  margin-top: 1rem !important;
+}
+
+.cart__btn {
+  font-size: 15px;
+  font-weight: 400;
+  width: 5.25rem;
+  height: 40px;
+  background-color: #eff1f3;
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 2.5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cart__btn:hover {
+  background-color: #e0e3e9;
+}
+
+.checkout__btn {
+  background-color: #f0c760;
+  border-radius: 2.5px;
+  font-size: 15px;
+  font-weight: 400;
+  width: 15rem;
+  height: 40px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.checkout__btn:hover {
+  background-color: #efbf47;
+}

@@ -1,0 +1,124 @@
+.products__slider * {
+  scroll-behavior: smooth;
+}
+
+.products__slider *::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.products__slider *::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+.products__slider *::-webkit-scrollbar-thumb {
+  background-color: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  transition: background-color 1s;
+}
+
+.products__slider *::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(153, 153, 153, 0.35);
+}
+
+.products__slider {
+  background-color: white;
+  margin: 2.5rem 8px;
+  border-radius: 3px;
+  padding: 1rem 1rem 2.75rem;
+}
+
+.productsSlider__head {
+  margin: 0.6rem 0 0.35rem;
+}
+
+.productsSlider__head > h4 {
+  color: rgb(68, 68, 68);
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.productsSlider__head > a {
+  margin-left: 1rem;
+}
+
+.slider__content {
+  overflow: auto;
+  margin: 0 1rem 0 1rem;
+  user-select: none;
+  justify-content: center !important;
+  white-space: nowrap;
+  padding-bottom: 1rem;
+}
+
+.slider__content > a > img {
+  margin-left: 1.25rem;
+}
+
+.sliderTopSeller__content {
+  padding: 1rem 1rem 0.5rem;
+}
+
+.sliderTopSeller__content > a > img {
+  height: 165px;
+  margin-left: 2.5rem;
+}
+
+.productSlider__controller {
+  height: 6.75rem;
+  border: none !important;
+  margin-top: 3.55rem !important;
+  padding: unset !important;
+}
+
+.productSlider__controller1 {
+  box-shadow: 2.25px 2.25px 5px -1.5px rgba(0, 0, 0, 0.25);
+}
+
+.productSlider__controller2 {
+  box-shadow: -2.25px 2.25px 5px -1.5px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 800px) {
+  .slider__content > a > img {
+    margin-left: 1rem;
+  }
+
+  .sliderTopSeller__content {
+    padding: 0.75rem 0.75rem 0.5rem;
+  }
+
+  .sliderTopSeller__content > a > img {
+    height: 140px;
+    margin-left: 2rem;
+  }
+
+  .productSlider__controller {
+    height: 5em;
+    border: none !important;
+    margin-top: 3.55rem !important;
+    padding: unset !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .slider__content > a > img {
+    margin-left: 1rem;
+  }
+
+  .sliderTopSeller__content {
+    padding: 0.75rem 0.75rem 0.5rem;
+  }
+
+  .sliderTopSeller__content > a > img {
+    height: 100px;
+    margin-left: 2rem;
+  }
+
+  .productSlider__controller {
+    height: 5rem;
+    border: none !important;
+    margin-top: 3.55rem !important;
+    padding: unset !important;
+  }
+}

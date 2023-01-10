@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: AmazonEmber400;
+}
+
+:root {
+  --background-main: #eaeded;
+}
+
+body {
+  background-color: var(--background-main) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mainHoverEffect {
+  color: #1196ab;
+}
+
+.mainHoverEffect:hover {
+  text-decoration: underline;
+  color: #cd6438;
+  text-decoration-color: #cd6438;
+}
+
+span {
+  font-size: 11px;
+}
+
+span.boldText {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.relative {
+  position: relative;
+}

@@ -1,0 +1,255 @@
+.header__logo {
+  border-radius: 3px;
+  padding: 9px 8px 2px;
+  border: 1.75px solid #131921;
+}
+
+.header__logo:hover {
+  border: 1.75px solid #fff;
+}
+
+.header__delivery {
+  text-align: center;
+  margin-left: 0.65rem;
+  padding: 5px 7px 5px 4px;
+  border-radius: 3.5px;
+  border: 1.75px solid #131921;
+  font-size: 14px;
+}
+
+.header__delivery:hover {
+  border: 1.75px solid #fff;
+}
+
+.header__delivery svg {
+  font-size: 21px;
+}
+
+.locationIcon {
+  margin-right: 0.15rem;
+  margin-top: 0.6rem;
+}
+
+/* Header Search Bar */
+
+.header__search {
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.headerSearchBar {
+  outline-width: 0;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  padding-left: 1rem;
+}
+
+.headerSearchSide__sections {
+  padding: 0.25rem 1rem;
+  height: 100%;
+}
+
+.headerSearchSide__sections.cats {
+  background-color: #f3f3f3;
+  color: gray;
+}
+
+.headerSearchSide__sections.search {
+  background-color: #f3a847;
+}
+
+/* Header Options */
+
+.headerNav__optionLineTwo svg {
+  font-size: 16px;
+  margin-top: 0.16rem;
+}
+
+.headerNav__languages {
+  align-items: center;
+  border: 1.75px solid #131921;
+  border-radius: 2px;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .header__delivery {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .headerNav__languages {
+    display: none;
+  }
+
+  .headerSearchSide__sections {
+    padding: 0.25rem 0.5rem;
+    height: 100%;
+  }
+}
+
+.headerNav__languages svg {
+  font-size: 13.5px;
+}
+
+.headerNav__languages:hover {
+  border: 1.75px solid #fff;
+}
+
+.headerNav__languages img {
+  width: 20px;
+  margin-right: 4.5px;
+}
+
+.headerNav__option {
+  border: 1.75px solid #131921;
+  border-radius: 3px;
+}
+
+.headerNav__optionLineOne {
+  color: white;
+  opacity: 0.9;
+}
+
+.headerNav__optionLineTwo {
+  color: white;
+}
+
+.extra--margin--top {
+  margin-top: 3px !important;
+}
+
+.signInArrow {
+  margin-top: 0 !important;
+}
+
+.headerNav__option:hover {
+  border: 1.75px solid #fff;
+}
+
+.headerNav__basket {
+  align-items: center;
+  border: 1.75px solid #131921;
+  padding: 5px 0 5px 5px;
+  border-radius: 2px;
+}
+
+.headerNav__basket svg {
+  color: white;
+}
+
+.headerNav__basket:hover {
+  border: 1.75px solid #fff;
+}
+
+.headerNav__basket span {
+  font-size: 15px;
+  margin: 0 10px;
+  color: #f07d17;
+}
+
+.basketCount {
+  margin-right: 0 !important;
+}
+
+/* Login Drop Down */
+
+.loginDropDown {
+  background-color: white;
+  position: absolute;
+  border: 1px solid #ccc;
+  top: 4rem;
+  right: 4.5rem;
+  color: #131921;
+  width: 375px;
+  height: 290px;
+  align-items: center;
+  padding: 1rem;
+  z-index: 1111111;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginDropDown {
+    position: absolute;
+    top: 6.15rem;
+    right: 0rem;
+    width: 375px;
+    max-width: 97%;
+    height: 290px;
+    padding: 1rem;
+    z-index: 1111111;
+  }
+}
+
+.loginDropDown > .loginDropDown__top {
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.5rem;
+  width: 90%;
+}
+
+.loginDropDown__top > a > button {
+  background-color: #f1c657;
+  border-radius: 2px;
+  height: 30px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  cursor: pointer;
+  width: 12.5rem;
+  margin-bottom: 0.65rem;
+}
+
+.loginDropDown__top > a > button:hover {
+  background-color: #f0c14b;
+}
+
+.newCustomer__text {
+  font-size: 13px;
+  margin-right: 0.25rem;
+}
+
+.loginDropDown__top > div > .redirectLink {
+  font-size: 13px;
+}
+
+.loginDropDown > .loginDropDown__bottom {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.loginDropDown__bottomLeft {
+  width: 50%;
+  padding-left: 1rem;
+  border-right: 1px solid lightgray;
+}
+
+.loginDropDown__bottomRight {
+  width: 50%;
+  padding-left: 1.5rem;
+}
+
+.loginDropDown__bottomLeft > h3 {
+  font-size: 15px;
+}
+
+.loginDropDown__bottomRight > h3 {
+  font-size: 15px;
+}
+
+.loginDropDown__bottomLeft > a,
+.loginDropDown__bottomRight > a {
+  margin-top: 0.4rem;
+  font-size: 12.75px;
+  color: #111;
+}
+
+.loginDropDown__bottomLeft > a:hover,
+.loginDropDown__bottomRight > a:hover {
+  text-decoration: underline;
+  color: #cd6438;
+  text-decoration-color: #cd6438;
+}
