@@ -1,9 +1,9 @@
-# Full Stack Amazon Clone
+# Full Stack Amazon Demo
 Built fully functional Amazon clone with all required
 eCommerce features with ReactJs using latest techs like Material UI, Stripejs etc.
 
-<b>Live link:</b> https://amazondemo.azharzaman.com/ <br />
-<b>Portfolio link:</b> https://azharzaman.com
+<b>Live link:</b> https://amazondemo-kamran.vercel.app/ <br />
+<b>Portfolio link:</b> https://kamranashraf.vercel.app/
 
 ## Used technologies:
 • Javascript(es6+) <br/>
@@ -18,7 +18,3 @@ eCommerce features with ReactJs using latest techs like Material UI, Stripejs et
 • Google Firebase <br/>
 • Firebase Authentication <br/>
 • Firebase Firestore (realtime) <br/>
-
-There is always a room for improvement, 
-contribution would be a great favour.
-Don't forget to leave a ⭐ if you like it.
